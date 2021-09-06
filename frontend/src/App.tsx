@@ -1,8 +1,14 @@
+import NavBar from "components/NavBar";
+import Footer from "components/Footer";
+import DataTable from "components/DataTable";
+
 function App() {
   return (
-    <div>
-        <h1>Olá Myltiane </h1>
-    </div>
+    <>
+      <NavBar />
+      <DataTable />
+      <Footer />
+    </>
   );
 }
 
